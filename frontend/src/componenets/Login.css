@@ -1,0 +1,100 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #284B70;
+}
+
+.wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+  padding: 10px;
+  background-color: #77A290;
+  border-radius: 5px;
+  height: 30%;
+  box-shadow: #938670 0 12px 20px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-left: 2rem;
+}
+
+.box{
+  width: 100%;
+}
+
+.input{
+  border: none;
+  background-color: #ccc;
+  height: 1.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+.input-pass{
+  border: none;
+  background-color: #ccc;
+  text-align: center;
+  width: 100%;
+  height: 1.5rem;
+}
+
+.button{
+  background-color:#284B70;
+  border-radius: 5px;
+  color: #FDD05A;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover{
+  color: #938670;
+  transition: 1s color;
+}
+
+.button-create{
+  background-color:#284B70;
+  border-radius: 5px;
+  color: #FDD05A;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 5px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.button-create:hover{
+  color: #938670;
+  transition: 1s color;
+}
+
+.error{
+  color: red;
+}
+
+
+@media screen and (max-width:360px){
+  .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .wrap{
+    width: 92%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+}

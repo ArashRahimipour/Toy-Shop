@@ -1,0 +1,99 @@
+  .footer{
+   display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #003B73;
+    margin-top: 5px ;
+    box-shadow: #EDE4E3 0px 2px 4px 5px;
+    height: 25vh;
+    width: 100%;
+    font-size: 14px;
+}
+
+a{
+  text-decoration: none;
+  color: #D4F1F4;
+}
+
+.contact{
+  text-decoration: none;
+  color: #D4F1F4;
+}
+
+ul li a:hover{
+  color: #75E6DA;
+  transition: color 0.5s;
+}
+
+.bottom{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-right:#75E6DA solid 1px;
+  width: 70%;
+}
+.details ul{
+ display: flex;
+ flex-direction: column;
+}
+
+.new{
+  display: flex;
+  flex-direction: column;
+}
+
+.social{
+    font-size: 25px;
+    color: #D4F1F4;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 720px){
+    .footetr{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .social:hover{
+       color: orange;
+       transition:color 2s;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .footetr{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .social:hover{
+       color: orange;
+       transition:color 2s;
+    }
+}
+    
+@media screen and (max-width: 280px){
+    .footetr{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .social:hover{
+       color: orange;
+       transition:color 2s;
+    }
+}
+    
+    

@@ -1,0 +1,34 @@
+.box{
+  margin-top: 1rem;
+}
+.about{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.shop_age{
+  height: 22vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #1C4670;
+  border-radius: 5px;
+  color: aliceblue;
+}
+
+.ul_shop{
+  padding: 10px;
+}
+
+.list{
+  text-decoration: none;
+  color: #663635;
+  margin-left: 42rem;
+}
+
+
+
+

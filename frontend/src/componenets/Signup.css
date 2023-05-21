@@ -1,0 +1,37 @@
+.wrap-signup{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+  padding: 10px;
+  background-color: #77A290;
+  border-radius: 5px;
+  height: 35%;
+  box-shadow: #938670 0 12px 20px;
+}
+
+.input-name{
+  border: none;
+  background-color: #ccc;
+  height: 1.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+
+@media screen and (max-width:360px){
+  .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .wrap-signup{
+    width: 92%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+}

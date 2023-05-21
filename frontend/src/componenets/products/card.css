@@ -1,0 +1,28 @@
+.front{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.card{
+  height: 22vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #DEB3AD;
+  border-radius: 5px;
+}
+
+.detail{
+  color: #663635;
+  padding-top: 10px;
+}
+
+.pic{
+  border-radius: 5px;
+}
+
+

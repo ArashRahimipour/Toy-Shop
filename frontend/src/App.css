@@ -1,0 +1,14 @@
+.container{
+  background-color: #284B70;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.box{
+  color: #FDD05A;
+  display: flex;
+  padding: 10px;
+}
+
+
+
